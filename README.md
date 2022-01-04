@@ -7,7 +7,8 @@ All of this is done through one super easy to use UI!
 ## Usage
 If you have toggle enabled, just right click on an NPC (Pixelmon is required) to sight it or display his menu.
 
-*Video soon*
+## Youtube demo video
+[![Youtube demo video](https://img.youtube.com/vi/PfTrGYXO7Uc/0.jpg)](https://www.youtube.com/watch?v=PfTrGYXO7Uc)
 
 ## Commands
 ### /nbnpcsight_config \<Load / Save\>
