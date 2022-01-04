@@ -1,5 +1,8 @@
 # NBNpcSight
-A plugin that allows you to customize the NPC vision, create RP adventures or reproduce game scenarios very easily with this tool.
+A forge mod that grants the ability to give NPC's vision, area detection, as well as optional command execution and or victory commands!
+Using the UI you are able to select from 3 different detection methods, directional line of sight, multiple lines of sight, or area sight (a definable area around the npc)
+If you have the mod NPC lock, a 4th method is available, for locking the npc in any line of sight and locking the npc's into only looking that way.
+All of this is done through one super easy to use UI!
 
 ## Usage
 If you have toggle enabled, just right click on an NPC (Pixelmon is required) to sight it or display his menu.
@@ -10,19 +13,22 @@ If you have toggle enabled, just right click on an NPC (Pixelmon is required) to
 ### /nbnpcsight_config \<Load / Save\>
 > Permission: *nbnpcsight.config*
 
-Force the loading/saving of the configuration.
+Load the config (if you made changes via it)
+A force save of the config (shouldn't be necessary, as it auto saves)
 
 ### /togglenpcsight
 > Permission: *nbnpclock.admin*
 
-A toggle mod to enable or disable the lock mod for the administrator using the command.
+Toggle command to enable or disable the UI being brought up while right clicking a NPC!
+Simply run the command /togglenpcsight and right click the npc's you would like to edit. 
+When finished type /togglenpcsight once more to exit the edit mode!
 
 ## UI
 ![image](https://user-images.githubusercontent.com/30299182/148052427-433a4eb3-7e19-4502-a1d8-5439fba28086.png)
-- **Position**: Word location
-- **Type**: NPC Type (Nurse, Doctor, Trainer, Chat, ect...)
+- **Position**: World/DIM & coordinates
+- **Type**: NPC Type (Chat, Nurse, Battle, etc)
 - **AreaSight**: Enable / Disable area detection
-- **Distance**: Distance of detection
+- **Distance**: Distance of detection (in blocks)
 - **AI**: Enable / Disable NPC AI
 - **ExecuteCommands**: Number of commands executed when a player is detected
 - **VictoryCommands**: Number of commands executed when a player defeat a NPC Trainer.
